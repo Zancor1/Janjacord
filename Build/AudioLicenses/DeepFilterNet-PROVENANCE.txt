@@ -1,0 +1,9 @@
+DeepFilterNet v0.5.6 (Rikorose/DeepFilterNet, revision 978576a).
+Model: embedded DeepFilterNet3_ll_onnx.tar.gz, 48 kHz, 480-sample hop, no convolution/deep-filter lookahead.
+Source: https://github.com/Rikorose/DeepFilterNet/tree/v0.5.6
+License: MIT OR Apache-2.0, notices included.
+Native inference compiled from source with Rust 1.100.0 GNU, tract 0.19.16, Zig 0.15.2.
+App adapter caches immutable model parameters, creates separate processing state per capture and catches processing failures.
+Build: Build/build-deepfilter.ps1; adapter sources: Build/DeepFilterNative.
+DLL SHA256: 36CED72E7E7517CE7D72939EE7DE48EA0AC4B87A567AB68628B12C52771BFEFF
+Processing is local, no cloud or audio recording.

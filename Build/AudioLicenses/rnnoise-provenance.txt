@@ -1,0 +1,8 @@
+RNNoise native Windows x64, built from source
+Source: https://github.com/Yellow-Dog-Man/rnnoise/tree/f0b73e38c029660bc6e010b583b406f6470f8a1b
+Compiler: Zig 0.15.2, target x86_64-windows-gnu, -O2 -shared -s, DLL_EXPORT RNNOISE_BUILD COMPILE_OPUS
+Rebuild: Build/build-rnnoise.ps1
+SHA256: B00CD6E5717F208BAC86CFD75F64FEA3CF54D18A020900E7EA410EDD5BB6B977
+Imports only Windows 10 UCRT/KERNEL32; no Visual C++ redistributable dependency.
+Upstream: https://github.com/xiph/rnnoise
+Licenses: rnnoise-COPYING, rnnoise-mingw-COPYING, rnnoise-zig-LICENSE
